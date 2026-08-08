@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics & Firmware Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Robotics & Firmware Engineer</h1>
+            <p class="subtitle">Specializing in bare-metal MCUs, distributed hardware pipelines, and control theory.</p>
+            <div class="contact-links">
+                <a href="https://github.com/EinMien" target="_blank">GitHub</a> | 
+                <a href="mailto:einmien@gmail.com">einmien@gmail.com</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="projects-section">
+            <h2>Projects</h2>
+            <hr>
+            <div class="project-list">
+
+                <div class="project-item">
+                    <h3><a href="https://github.com/EinMien/RoboClaw-Pico" target="_blank">RoboClaw Pico SDK Library</a></h3>
+                    <p class="tech-stack">C++ | Pico SDK | Non-Blocking State Machine</p>
+                    <p>A fully non-blocking, interrupt-friendly C++ packet serial library for controlling BasicMicro RoboClaw motor controllers using the Raspberry Pi Pico SDK. Uses an asynchronous 4-state state machine for telemetry polling.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3><a href="https://github.com/EinMien/RP2350-Bare-Metal-Executive" target="_blank">RP2350 Bare-Metal Executive</a></h3>
+                    <p class="tech-stack">C++ | Hardware Abstraction Bypass | RP2350</p>
+                    <p>A bare-metal dual-core state machine. Bypasses standard SDKs for direct register polling and features a custom 32-bit FNV-1a wear-leveling struct for flash memory safety.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3><a href="https://github.com/EinMien/Pico-USB-MSC-Template" target="_blank">Pico USB MSC Template</a></h3>
+                    <p class="tech-stack">C++ | TinyUSB | Dual-Core SMP | Virtual FAT16</p>
+                    <p>An advanced embedded memory architecture. Implements a Virtual Zero-Copy FAT16 USB drive mapped directly to raw QSPI Execute-In-Place (XIP) memory via SCSI LBA spoofing.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3><a href="https://github.com/EinMien/FREYJA-AVR-Executive" target="_blank">FREYJA AVR Executive</a></h3>
+                    <p class="tech-stack">C++ | Control Theory | ATmega328P</p>
+                    <p>A closed-loop trajectory controller featuring dynamic PID, anti-windup clamping, and Derivative EMA filtering. Runs purely on AVR-Libc to maintain a deterministic 13kHz execution frequency.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3><a href="https://github.com/EinMien/Micro-LiDAR-Serial-Bridge" target="_blank">Micro-LiDAR Serial Bridge</a></h3>
+                    <p class="tech-stack">C++ | Distributed Processing | I2C & UART</p>
+                    <p>A Master/Slave architecture offloading massive 8x8 VL53L5CX ToF data from the primary MCU to a dedicated RP2040 co-processor via a compressed UART packet engine.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3><a href="https://github.com/EinMien/Hardware-Timing-Suite" target="_blank">Hardware Timing Suite</a></h3>
+                    <p class="tech-stack">C# | WinForms | SQLite | C++</p>
+                    <p>An enterprise-grade cross-thread UI bridge for sub-millisecond Arduino hardware interrupts. Automates competitive workflow pipelines via dynamic MySQL/HTML ranking generation.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3><a href="https://github.com/EinMien/RC14-Data-Pipeline-ETL" target="_blank">RC14 Data Pipeline (ETL)</a></h3>
+                    <p class="tech-stack">Python | MySQL | Data Engineering</p>
+                    <p>An end-to-end ETL automation pipeline for an international robotics championship. Fuzzy-matches messy CSVs into strict Relational SQL tables and auto-generates referee tracking sheets.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3><a href="https://github.com/EinMien/amaranth-archive-ttrpg" target="_blank">Amaranth Archive (TTRPG)</a></h3>
+                    <p class="tech-stack">Python | AsyncIO | SQLite | APIs</p>
+                    <p>A massively stateful relational database bot featuring deterministic GUID generation and API chunking for handling large-scale Discord embed limitations.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3><a href="https://github.com/EinMien/Zero-Trust-Automod-pHash" target="_blank">Zero-Trust Automod (pHash)</a></h3>
+                    <p class="tech-stack">Python | OpenCV | Spatial Hashing</p>
+                    <p>An asynchronous pipeline utilizing perceptual media hashing (pHash) and Hamming distance calculations to preemptively drop malicious payloads via spatial image analysis.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026</p>
+        </div>
+    </footer>
+</body>
+</html>
